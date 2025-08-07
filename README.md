@@ -31,19 +31,19 @@ This project can be useful for any experiments where you need to get a signal of
 When the project is powered up, the main menu appears. In order to select the desired option (frequency or waveform), move the cursor to the option and click on the button. In order to switch between menu items, turn the encoder knob. Turn clockwise in order to select the menu item on the right or below. Turn counterclockwise in order to select the menu item on the left or above. The menu item on which the cursor is currently positioned is highlighted in white. In order to activate a selected menu item, click the encoder button.
 
 
-![image](349562107-f97d9be6-1f9b-4335-872f-6ad0f58e6c81.png)
+![image](Main_menu.png)
 
 
 ## Frequency Menu
 There is the Back button at the top to the left of the label “Frequency”, which returns you to the main menu. Below the label “Frequency” there are seven digits to select frequency. When you turn the knob, the cursor selects a digit and underlines the selected one. By pressing the button, the underlined digit is highlighted. By turning the knob you can change the digit from 0 to 9. When the necessary digit is chosen, press the button. Then by turning the knob you can select another digit to change. The maximum frequency to set is 10MHz. After setting the frequency, select the OK button and click the encoder button and the frequency of the output signal is changed. After that the OK button turns green.
 
-![image](349561355-5bb1e2c1-cfa3-45aa-9415-ce2bbf5444da.png)
+![image](Frequency_menu.png)
 
 
 ## Signal Shape Menu
 The operation is the same as described above in the Main Menu. On the right Waveform Menu, there are pictures showing how each of the waveforms looks like. In order to back to the Main Menu, select and click the Back button at the top to the left of the label “Signal Shape”.
 
-![image](349562366-d2a482e5-25c1-4e72-81f3-5e057d086e4f.png)
+![image](Signal_shape_menu.png)
 
 
 ## How to Install This Project
@@ -63,7 +63,7 @@ The AD9833 outputs the maximum voltage of 0.65 V when generating a triangle or s
 I also think that the code that deals with menu should be remade so the 'back' button and 'button recolouring when pressed' features are implemented in separate functions in code. This is better implementation because this makes **InterfaceReaction** function shorter and also creates advantages when implementing a new menu window(new option to configure)/
 
 ## Wiring Diagram
-![image](349556950-25c0f3d3-49f9-44e4-ab42-f43f234d8834.png)
+![image](schematic.png)
 
 
 ## 6.EthernetTask
